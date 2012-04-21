@@ -4,21 +4,21 @@
  */
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	background: #f4f4f4;
+	font-family: Helvetica;
+	background-image: url(http://subtlepatterns.com/patterns/furley_bg.png);
 }
 
 h1, h2, h3 {
-	color: #222;
+	color: #000000;
 }
 
 p {
 	line-height: 24px;
-	color: #555;
+	color: #000000;
 }
 
 a {
-	color: green;
+	color: #003366;
 	text-decoration: none;
 }
 
@@ -28,11 +28,12 @@ a:hover {
 
 .content {
 	width: 940px;
-	margin: 0 auto;
+	margin: 15px auto;
 }
 
 #header  {
 	border-bottom: 1px solid #999;
+	
 }
 
 #nav {
@@ -41,7 +42,7 @@ a:hover {
 }
 
 #main {
-	margin: 0;
+	margin: 10px 5px 10px 10px;
   /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
   /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
 }
